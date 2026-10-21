@@ -61,7 +61,3 @@
 5. El nombre/ubicación de la regla **S1541** puede variar según la versión de SonarQube (a veces aparece como "Methods should not be too complex"); búscala por la clave `java:S1541`.
 6. Si el Quality Gate no pasa por **Coverage** global, mira qué clase baja el porcentaje; no lo "arregles" con pruebas vacías, documenta la condición que falla (la rúbrica lo acepta).
 
-## Cómo verifiqué el código
-Compilé el proyecto con JDK 21, corrí los 35 valores esperados de las pruebas contra el código real (0 fallos) y comparé la
-versión original contra la refactorizada con 200.000 entradas aleatorias (0 diferencias). No pude ejecutar Maven/SonarQube
-en mi entorno, así que **los números del dashboard y las capturas tienen que salir de tu propia ejecución**.
